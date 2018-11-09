@@ -13,6 +13,9 @@
 		FC548C0A2195730400034C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC548C092195730400034C98 /* Assets.xcassets */; };
 		FC548C0D2195730400034C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC548C0B2195730400034C98 /* LaunchScreen.storyboard */; };
 		FC548C102195730400034C98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC548C0F2195730400034C98 /* main.m */; };
+		FC548C1A2195732600034C98 /* myMachines.json in Resources */ = {isa = PBXBuildFile; fileRef = FC548C162195732600034C98 /* myMachines.json */; };
+		FC548C1B2195732600034C98 /* new.json in Resources */ = {isa = PBXBuildFile; fileRef = FC548C182195732600034C98 /* new.json */; };
+		FC548C1C2195732600034C98 /* JsonSort.m in Sources */ = {isa = PBXBuildFile; fileRef = FC548C192195732600034C98 /* JsonSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		FC548C0C2195730400034C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC548C0E2195730400034C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC548C0F2195730400034C98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC548C162195732600034C98 /* myMachines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myMachines.json; sourceTree = "<group>"; };
+		FC548C172195732600034C98 /* JsonSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonSort.h; sourceTree = "<group>"; };
+		FC548C182195732600034C98 /* new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = new.json; sourceTree = "<group>"; };
+		FC548C192195732600034C98 /* JsonSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,10 @@
 				FC548C012195730300034C98 /* AppDelegate.m */,
 				FC548C032195730300034C98 /* ViewController.h */,
 				FC548C042195730300034C98 /* ViewController.m */,
+				FC548C172195732600034C98 /* JsonSort.h */,
+				FC548C192195732600034C98 /* JsonSort.m */,
+				FC548C162195732600034C98 /* myMachines.json */,
+				FC548C182195732600034C98 /* new.json */,
 				FC548C062195730300034C98 /* Main.storyboard */,
 				FC548C092195730400034C98 /* Assets.xcassets */,
 				FC548C0B2195730400034C98 /* LaunchScreen.storyboard */,
@@ -129,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC548C0D2195730400034C98 /* LaunchScreen.storyboard in Resources */,
+				FC548C1A2195732600034C98 /* myMachines.json in Resources */,
 				FC548C0A2195730400034C98 /* Assets.xcassets in Resources */,
+				FC548C1B2195732600034C98 /* new.json in Resources */,
 				FC548C082195730300034C98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +157,7 @@
 				FC548C052195730300034C98 /* ViewController.m in Sources */,
 				FC548C102195730400034C98 /* main.m in Sources */,
 				FC548C022195730300034C98 /* AppDelegate.m in Sources */,
+				FC548C1C2195732600034C98 /* JsonSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,37 @@
+{
+    "data": {
+        "msg": "😃[😂😗]:😜\"\\\t\r\ud83d\ude02\n\b\f\u738b/}",
+        "id": 128,
+        "siteCode": "075100001",
+        "siteAddress": "dddd粤海街道沙河西路2025号ffggggfg",
+        "areaCode": "440201000000",
+        "cityCode": null,
+        "longitude": "113.958634",
+        "latitude": "22.549027",
+        "distance": null,
+        "healthStatus": 3,
+        "tagList": null,
+        "tagType": null,
+        "street": "dddd粤海街道沙河西路2025号",
+        "community": "ffggggfg",
+        "addressApartment": "ffggg",
+        "addressDetail": "gfg",
+        "serviceTime": "周一至周日 09:15-20:00",
+        "serviceTimeTips": null,
+        "recyclingInfoList": [{
+            "type": 0,
+            "name": "饮料瓶",
+            "status": 3,
+            "sort": 1,
+            "resourceTagSort": 5,
+            "statusSort": 3,
+            "parentType": 0,
+            "parentName": "饮料瓶",
+            "priceType": 2,
+            "perPrice": "1.00",
+            "full": false,
+            "fault": true,
+            "sterilize": false
+        }]
+        }
+}
